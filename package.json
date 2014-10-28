@@ -1,0 +1,18 @@
+{
+  "name": "secret-web-token",
+  "version": "0.0.1",
+  "description": "Encode/decode secure tokens, similar to JWT but encrypted and more compact",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./test.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "base64url": "0.0.6"
+  },
+  "optionalDependencies": {
+    "base32": "0.0.6",
+    "msgpack": "^0.2.4"
+  }
+}
